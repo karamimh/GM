@@ -1,0 +1,51 @@
+@font-face {
+    font-family: main;
+    src: url(../fonts/main.ttf);
+}
+
+* {
+    font-family: main;
+}
+
+#HEADER {
+    background: url(../images/bg.jpg) no-repeat bottom fixed;
+    background-size: cover;
+}
+
+#NAV {
+    transition: 0.1s background;
+}
+
+.fixed-nav {
+    position: fixed;
+    top: 5px;
+    right: 0;
+    left: 0;
+    width: 98%;
+    margin: 0 auto !important;
+}
+
+.glass {
+    /* From https://css.glass */
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+.header-title {
+    padding: 120px 20px 100px;
+}
+
+.gold-text {
+    color: rgb(191, 167, 91) !important;
+}
+
+.lightgray-text {
+    color: rgb(211, 211, 211) !important;
+}
+
+.slight-shadow {
+    text-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
