@@ -1,66 +1,66 @@
 @font-face {
-    font-family: main;
-    src: url(../fonts/main.ttf);
+  font-family: main;
+  src: url(../fonts/main.ttf);
 }
 
 * {
-    font-family: main;
+  font-family: main;
 }
 
 #HEADER {
-    background: url(../images/bg.jpg) no-repeat bottom fixed;
-    background-size: cover;
+  background: url(../images/bg.jpg) no-repeat bottom fixed;
+  background-size: cover;
 }
 
 .transition {
-    transition: 0.1s background;
+  transition: 0.1s background;
 }
 
 .glass {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.4);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(5px);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(5px);
 }
 
 .header-title {
-    padding: 120px 20px 100px;
+  padding: 120px 20px 100px;
 }
 
 .gold-text {
-    color: rgb(191, 167, 91) !important;
+  color: rgb(191, 167, 91) !important;
 }
 
 .lightgray-text {
-    color: rgb(211, 211, 211) !important;
+  color: rgb(211, 211, 211) !important;
 }
 
 .slight-shadow {
-    text-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
 }
 
 .gold-bg {
-    background-color: rgb(191, 167, 91);
+  background-color: rgb(191, 167, 91);
 }
 
 .lightgray-bg {
-    background-color: rgb(211, 211, 211);
+  background-color: rgb(211, 211, 211);
 }
 
 .cursor-pointer {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .lightgray-hover:hover {
-    background-color: lightgray;
+  background-color: lightgray;
 }
 
 .mw-900 {
-    max-width: 900px;
+  max-width: 900px;
 }
 
 .text-justify {
-    text-align: justify;
+  text-align: justify;
 }
