@@ -64,3 +64,13 @@
 .text-justify {
   text-align: justify;
 }
+
+.cv-list {
+  column-count: 2;
+}
+
+@media screen and (width <= 768px) {
+  .cv-list {
+    column-count: 1;
+  }
+}
